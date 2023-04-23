@@ -1,0 +1,51 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;                  
+    color:#000;
+}
+
+.header{
+    display:flex;
+    width:1600px;
+    margin:auto;
+    background-color:red;
+}
+
+.home{
+    font-size:25px;
+    line-height:100px;
+    height:20%;
+    margin-left:40px;
+
+}
+hr{
+    margin-left:40px;
+    margin-right:40px;
+}
+
+.nav{
+    font-size:22px;
+    width:1350px;
+    height:100px;
+    justify-content:flex-end;
+    line-height:100px;
+    display:flex;
+}
+
+.nav > li{
+    margin-left:140px;
+}
+.body1{
+    height:800px;
+    width:100%;
+    background-color: mistyrose;
+}
+.footer{
+    height:100px;
+    width:100%;
+    background-color: orange;
+};
