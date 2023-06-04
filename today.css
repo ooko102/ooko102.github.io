@@ -1,0 +1,227 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;         
+}
+
+.header{
+    display:flex;
+    width:100%;
+    height: 90px;
+    margin:auto;
+    background-color: rgba(228, 229, 240, 0.842);
+    position : fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:9999;
+}
+a {
+    color: black;
+}
+.home{
+    margin-left:600px;
+}
+.logo {
+    width:120px;
+    height:120px;
+    margin-top:-15px;
+}
+h1 {
+    font-size:80px;
+    color:rgb(24, 24, 26);
+    width:320px;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-family: sans-serif;
+    animation: slide 1.5s ease-out;
+}
+@keyframes slide {
+    from{
+        left:-150px;
+    }
+    to{
+        left:100px;
+    }
+}
+
+.nav{
+    font-size:24px;
+    font-family: sans-serif;
+    width:750px;
+    height:90px;
+    justify-content:flex-end;
+    line-height:90px;
+    display:flex;
+}
+
+.nav > li{
+    margin-left:180px;
+}
+body {
+    padding-top: 75px;
+}
+.body1{
+    margin-top:15px;
+    height:800px;
+    background:rgb(229, 232, 240);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.AK {
+    font-family: sans-serif;
+    font-size:15px;
+}
+.a1{
+    margin-top: 100px;
+}
+.SoBad {
+    position:absolute;
+    left:550px;
+    top:200px;
+}
+@keyframes slide1 {
+    from{
+        top:400px;
+    }
+    to{
+        left:1050px;
+    }
+}
+#CPI {
+    position:absolute;
+    left:1050px;
+    top:150px;
+    animation: slide1 1s ease-out;
+}
+#CPI h3,
+#CPI img {
+    display: inline;
+    vertical-align: middle;
+}
+#CPI img {
+      margin-top: 5px; /* 이미지를 아래로 조정할 값 */
+  }
+  @keyframes slide2 {
+    from{
+        top:400px;
+    }
+    to{
+        left:1450px;
+    }
+}
+#trade {
+    position: absolute;
+    left: 1450px;
+    top: 150px;
+    animation: slide2 1s ease-out;
+  }
+  
+  #trade h3,
+  #trade img {
+    display: inline;
+    vertical-align: middle;
+  }
+  #trade img {
+    margin-top: 5px; /* 이미지를 아래로 조정할 값 */
+  }
+#Bird {
+    position:absolute;
+    left:1050px;
+    top:320px;
+    animation: slide1 1s ease-out;
+}
+#Bird h3,
+#Bird img {
+    display: inline;
+    vertical-align: middle;
+}
+#Bird img {
+      margin-top: 5px; /* 이미지를 아래로 조정할 값 */
+  }
+#aging {
+    position:absolute;
+    left:1450px;
+    top:320px;
+    animation: slide2 1s ease-out;
+}
+#aging h3,
+#aging img {
+    display: inline;
+    vertical-align: middle;
+}
+#aging img {
+      margin-top: 5px; /* 이미지를 아래로 조정할 값 */
+  }
+
+#suicide {
+    position:absolute;
+    left:1050px;
+    top:520px;
+    animation: slide1 1s ease-out;
+}
+#suicide h3,
+#suicide img {
+    display: inline;
+    vertical-align: middle;
+}
+#suicide img {
+      margin-top: 5px; /* 이미지를 아래로 조정할 값 */
+  }
+#dollar {
+    position:absolute;
+    left:1450px;
+    top:520px;
+    animation: slide2 1s ease-out;
+}
+#dollar h3,
+#dollar img {
+    display: inline;
+    vertical-align: middle;
+}
+#dollar img {
+      margin-top: 5px; /* 이미지를 아래로 조정할 값 */
+  }
+#em {
+    position:absolute;
+    left:1050px;
+    top:720px;
+    animation: slide1 1s ease-out;
+}
+#em h3,
+#em img {
+    display: inline;
+    vertical-align: middle;
+}
+#em img {
+      margin-top: 5px; /* 이미지를 아래로 조정할 값 */
+  }
+
+#unem {
+    position:absolute;
+    left:1450px;
+    top:720px;
+    animation: slide2 1s ease-out;
+}
+#unem h3,
+#unem img {
+    display: inline;
+    vertical-align: middle;
+}
+#unem img {
+      margin-top: 5px; /* 이미지를 아래로 조정할 값 */
+  }
+
+.xx{
+    font-size: 30px;
+    border: 4px solid black;
+    border-radius:10px;
+    position: absolute;
+    top: 400px;
+    left :30px;
+}
