@@ -30,7 +30,8 @@ a {
     margin-top:-15px;
 }
 .nav{
-    font-size:22px;
+    font-size:24px;
+    font-weight:550;
     width:750px;
     height:90px;
     justify-content:flex-end;
