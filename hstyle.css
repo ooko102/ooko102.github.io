@@ -13,7 +13,6 @@
     height: 90px;
     margin:auto;
     background-color: rgba(228, 229, 240, 0.842);
-    position : fixed;
     top:0;
     left:0;
     right:0;
@@ -21,6 +20,18 @@
 a {
     color: black;
 }
+.nav{
+    font-size:24px;
+    font-weight:550;
+    font-family: sans-serif;
+    width:750px;
+    height:90px;
+    justify-content:flex-end;
+    line-height:90px;
+    display:flex;
+    
+}
+
 .home{
     margin-left:600px;
 }
@@ -28,6 +39,10 @@ a {
     width:120px;
     height:120px;
     margin-top:-15px;
+}
+
+.nav > li{
+    margin-left:180px;
 }
 h1 {
     font-size:80px;
@@ -47,6 +62,25 @@ h1 {
         left:100px;
     }
 }
+.xx{
+    font-size: 30px;
+    padding: 10px 15px;
+    background:rgb(182, 178, 146);
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    font-weight:550;
+    position: absolute;
+    top: 350px;
+    left :30px;
+}
+
+.img {
+    height:800px;
+    background:url('배경사진8.jpg');
+    background-size: cover;
+}
 h2 {
     font-size:80px;
     color:rgb(24, 24, 26);
@@ -65,49 +99,11 @@ h2 {
         left:50px;
     }
 }
-.nav{
-    font-size:24px;
-    font-weight:550;
-    font-family: sans-serif;
-    width:750px;
-    height:90px;
-    justify-content:flex-end;
-    line-height:90px;
-    display:flex;
-}
 
-.nav > li{
-    margin-left:180px;
-}
-body {
-    padding-top: 75px;
-
-  }
-
-.img {
-    margin-top:15px;
-    height:800px;
-    background:url('배경사진8.jpg') fixed;
-    background-attachment: fixed;
-    background-size: cover;
-}
 .Pho {
     position:absolute;
     top: 100px;
     left :1100px;
-}
-.xx{
-    font-size: 30px;
-    padding: 10px 15px;
-    background:rgb(182, 178, 146);
-    margin-top: 10px;
-    display: inline-block;
-    cursor: pointer;
-    color:rgb(0, 0, 0);
-    font-weight:550;
-    position: absolute;
-    top: 350px;
-    left :30px;
 }
 
 .nn{
@@ -128,7 +124,7 @@ body {
     font-size: 30px;
     position: absolute;
     top: 1720px;
-    left :1650px;
+    left :1800px;
     padding: 10px 15px;
     background: rgba(201, 203, 204, 0.842);
     margin-top: 10px;
@@ -149,11 +145,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1800px;
+    width: 2000px;
     flex-wrap: wrap;
 }
 .card:hover {
-    box-shadow: 0px 0px 5px rgb(167, 167, 168);
+    box-shadow: 0px 0px 5px rgb(160, 160, 161);
 }
 .container .card{
     position: relative;
@@ -162,11 +158,7 @@ body {
     margin: 20px;
     background: rgba(222, 223, 224, 0.842);
 }
-.container .card::before{
-    position: absolute;
-    top:0;
-    right:0;
-}
+
 .container .card .content{
     position:relative;
     height:150px;
@@ -176,12 +168,13 @@ body {
     height: auto;
 }
 .container .card .content::before{
+    content: '';
     position: absolute;
     bottom:0;
     left: 0;
     width: 100%;
     height: 80px;
-    background: linear-gradient(transparent,rgba(227, 229, 235, 0.842))
+    background: linear-gradient(transparent,rgba(222, 223, 224, 0.842))
 }
 .container .card.active .content::before{
     display: none;
@@ -199,7 +192,7 @@ body {
     margin-top: 10px;
     display: inline-block;
     cursor: pointer;
-    color:rgb(39, 39, 41);
+    color:rgb(24, 24, 26);
     font-size: 14px;
     font-weight:550;
 }
@@ -207,17 +200,15 @@ body {
     content: "더 읽기";
 }
 
-.footer{
-    background-color: rgb(236, 235, 235);
-}
 .container .card.active .more::before{
     content : '닫기';
 }
-
+.footer{
+    background-color: rgb(236, 235, 235);
+}
 .body3 {
     height:600px;
-    background:url('배경사진11.jpg') fixed;
-    background-attachment: fixed;
+    background:url('배경사진11.jpg');
     background-size: cover;
 }
 
